@@ -8,6 +8,7 @@ and each column represents a single day across all patients.
 """
 
 import numpy as np
+import dataclasses
 
 
 def load_csv(filename):
@@ -32,3 +33,7 @@ def daily_min(data):
     """Calculate the daily min of a 2d inflammation data array."""
     return np.min(data, axis=0)
 
+
+@dataclasses.dataclass
+class Patient:
+    name: str
