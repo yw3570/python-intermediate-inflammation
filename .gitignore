@@ -16,3 +16,9 @@
 #virtual environments 
 venv/
 .venv/ 
+inflammation/fizzbuzz.py
+functional/sumsw.py
+inflammation/interest.py
+functional/randomtest.py
+functional/sets.py
+library/test_library.py
